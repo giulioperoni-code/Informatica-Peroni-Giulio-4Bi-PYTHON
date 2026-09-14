@@ -1,3 +1,18 @@
+# Cache dell'interprete Python
 __pycache__/
 *.py[cod]
+
+# Ambienti virtuali Python
+.venv/
+venv/
+env/
+ENV/
+
+# File di stato dei notebook
 .ipynb_checkpoints/
+
+# File temporanei di Windows
+Thumbs.db
+Desktop.ini
+*.tmp
+~$*
