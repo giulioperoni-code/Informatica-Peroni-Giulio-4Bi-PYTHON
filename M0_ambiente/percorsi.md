@@ -1,3 +1,7 @@
+# Percorsi e cartelle di lavoro
+
+Sequenza di comandi PowerShell usata per creare e raggiungere le cartelle dell'esercizio.
+
 PS Z:\> cd .\Documenti\
 PS Z:\Documenti>
 PS Z:\Documenti> mkdir esercizio-percorsi
