@@ -16,3 +16,6 @@ Thumbs.db
 Desktop.ini
 *.tmp
 ~$*
+
+# File temporanei della simulazione in M0
+M0_ambiente_lavoro_ripasso_git/temporanei/
