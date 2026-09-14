@@ -3,3 +3,7 @@
 
 # OUTPUT
 Postazione 13 pronta per Giulio Peroni
+
+## Nota
+
+L'esecuzione conferma che lo script `orario.py` è stato avviato correttamente nella postazione di laboratorio indicata.
