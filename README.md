@@ -36,3 +36,5 @@ Nel modulo M0 sono raccolti anche i controlli sull'ambiente di lavoro e sulla co
 - Git 2.55.0
 
 Le versioni sono quelle registrate nell'esercizio 1 del modulo M0.
+
+### test di modifica del fil emd
