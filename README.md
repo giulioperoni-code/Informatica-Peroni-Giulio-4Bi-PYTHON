@@ -1,23 +1,16 @@
-# Informatica — Peroni Giulio — 4Bi
+# Repository di Informatica — Giulio Peroni — 4Bi
 
-**Studente:** Giulio Peroni — **Classe:** 4Bi — **Materia:** Informatica — **Anno scolastico:** 2026–27
+## Obiettivo
 
-## Scopo del repository
+Questo repository raccoglie i materiali, le verifiche e le consegne del corso di Informatica della classe 4Bi. La struttura è organizzata per modulo e contiene documentazione, esercizi in Markdown e notebook locali eseguiti senza usare il server remoto.
 
-Questo repository raccoglie gli esercizi, le verifiche e le consegne svolte durante le attività di laboratorio di Informatica.
-Permette di mantenere traccia del lavoro per modulo e di consegnare i materiali al docente.
-
-## Convenzione delle cartelle
-
-Ogni modulo usa una cartella con il formato `M<numero>_<titolo_in_minuscolo>`, con le parole del titolo separate dal carattere `_`.
-I file relativi a una consegna vanno inseriti nella cartella del modulo corrispondente.
-
-## Struttura delle consegne
+## Struttura
 
 ```text
 .
 ├── M0_ambiente_lavoro_ripasso_git/
-├── M1_markdown_documentazione_jupyter/
+├── M1_markdown/
+├── M1_jupiter/
 ├── M2_fondamenti_linguaggio_python/
 ├── M3_strutture_dati_native_python/
 ├── M4_funzioni_moduli_organizzazione_codice/
@@ -26,15 +19,37 @@ I file relativi a una consegna vanno inseriti nella cartella del modulo corrispo
 └── M8_programmazione_concorrente_rete/
 ```
 
-Le consegne di ciascun modulo si trovano nella rispettiva cartella elencata nell'albero.
-Nel modulo M0 sono raccolti anche i controlli sull'ambiente di lavoro e sulla configurazione Git.
+## Convenzioni
 
-## Ambiente software rilevato
+- Le cartelle dei moduli seguono il formato `M<numero>_<titolo_in_minuscolo>`.
+- I file Markdown sono salvati nella cartella del modulo corrispondente.
+- I notebook vengono creati come file `.ipynb` locali dentro `M1_jupiter/` e verificati con il kernel del workspace.
+- Non vengono usati server istituzionali per le consegne di notebook.
 
-- Python 3.14.2
-- Comando `code` — versione 1.94.2
-- Git 2.55.0
+## Istruzioni
 
-Le versioni sono quelle registrate nell'esercizio 1 del modulo M0.
+1. Aprire la cartella del repository in VS Code.
+2. Aprire la cartella del modulo da svolgere.
+3. Controllare i file Markdown in anteprima con `Ctrl+K` seguito da `V`.
+4. Per i notebook, usare `Restart Kernel and Run All Cells` e verificare che l'esecuzione termini senza errori.
+5. Conservare i file in ordine e mantenere i percorsi relativi corretti.
 
-### test di modifica del fil emd
+## Modulo M1
+
+Il modulo M1 raccoglie la documentazione tecnica, i collegamenti utili, le relazioni e i notebook locali. In questa sezione sono presenti le consegne di base, intermedie e avanzate sviluppate con file Markdown e `.ipynb` nel repository.
+
+```mermaid
+flowchart LR
+    A[Repository] --> B[M1_markdown]
+    A --> C[M1_jupiter]
+    B --> D[Markdown]
+    C --> E[Notebook locali]
+    D --> F[Anteprima]
+    E --> G[Kernel locale]
+```
+
+## Autore
+
+Giulio Peroni — 4Bi  
+Contatto istituzionale: disponibile tramite account scolastico e repository del corso.  
+Licenza: uso didattico e scolastico per il laboratorio di Informatica.
